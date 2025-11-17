@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testmigrating
+  description: A software component for managing migration tests within the anchusi organization.
+  annotations:
+    github.com/project-slug: anchusi/testmigrating
+    jira/project-key: SCRUM
+    jira/label: backstage-component:testmigrating
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
